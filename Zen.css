@@ -1,4 +1,12 @@
-.paper-wrapper {
-    display:grid
-    
-}
+
+.box {
+    color:white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:15px;
+  }
+
+  .intro {
+    display: flex;
+  }
