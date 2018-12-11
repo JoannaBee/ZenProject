@@ -1,22 +1,45 @@
 body {
     display: block;
-    color: #325050;
-    background: white;
+    background-color: #325050;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif'
     
 }
-* {
-    box-sizing: border-box;
+.page-wrapper {
+	margine: 25px;
+	padding: 10px		
 }
-.box {
-    color:white;
-    font-size: 100px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
-    padding:15px;
-  }
-.sidebar {
-    display: flex;
-    flex-direction: column;
 
+.intro {
+	display: flex;
+	background-color: white;
+	border:thick;
+	margin: 25px;
+	padding: 5px, 25px, 5px, 25px;
+	flex-direction: column;
+	width: 70%;
 }
+.main {
+	display: flex;
+	background-color: white;
+	border:thick;
+	margin: 25px;
+	padding: 5px, 25px, 5px, 25px;
+	flex-direction: column;
+	width: 70%;
+}
+
+.sidebar {
+	display: flex;
+	background-color: grey;
+	flex-direction: column;
+	width: 30%;
+	justify-content: flex-end;
+}
+
+.sidebar > div {
+  margin: 10px;
+  text-align: left;
+  font-size: 17px;
+}
+  
+
